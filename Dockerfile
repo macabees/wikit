@@ -1,5 +1,5 @@
 FROM node
 
-RUN npm i wikit -g
+RUN npm install -g wikit
 
-ENTRYPOINT ["wikiit"]
+ENTRYPOINT ["wikit"]

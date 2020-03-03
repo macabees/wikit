@@ -1,5 +1,5 @@
 # wikit (Wikipedia)
-Seach Wikipedia from the Console
+Search Wikipedia from the Console
 
 ## wikit (Project Info)
 [Website](https://www.npmjs.com/package/wikit)
@@ -20,4 +20,5 @@ Note: requires `docker login`
 
 `$ docker run -it --rm macabees/wikit microsoft -b` (Opens in a web browser)
 
-`$ docker run -it --rm macabees/wikit microsoft -l 80` (Defines wrap length)
+## Help
+`$ docker run -it --rm macabees/wikit --help`
